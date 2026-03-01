@@ -49,6 +49,7 @@ namespace SafecoreApi.Controllers
                 user.Name = model.Name;
                 user.Gst = model.Gst;
                 user.Mobile = model.Mobile;
+                // coomit this my first 
             }
 
             _context.SaveChanges();

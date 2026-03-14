@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Jayco\\SourceCode\\Main\\jayco-samadhan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46B68D99-3828-431B-B6C6-8141092D7BB8}|SafecoreApi\\SafecoreApi.csproj|d:\\projects\\jayco\\sourcecode\\main\\jayco-samadhan\\safecoreapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{46B68D99-3828-431B-B6C6-8141092D7BB8}|SafecoreApi\\SafecoreApi.csproj|solutionrelative:safecoreapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\Jayco\\SourceCode\\Main\\jayco-samadhan\\SafecoreApi\\appsettings.json",
+              "RelativeDocumentMoniker": "SafecoreApi\\appsettings.json",
+              "ToolTip": "D:\\Projects\\Jayco\\SourceCode\\Main\\jayco-samadhan\\SafecoreApi\\appsettings.json",
+              "RelativeToolTip": "SafecoreApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-05T15:57:43.05Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

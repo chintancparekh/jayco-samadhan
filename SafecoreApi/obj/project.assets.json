@@ -6299,11 +6299,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\system\\SafecoreApi\\SafecoreApi\\SafecoreApi.csproj",
+      "projectUniqueName": "D:\\Projects\\Jayco\\SourceCode\\Main\\jayco-samadhan\\SafecoreApi\\SafecoreApi.csproj",
       "projectName": "SafecoreApi",
-      "projectPath": "D:\\system\\SafecoreApi\\SafecoreApi\\SafecoreApi.csproj",
+      "projectPath": "D:\\Projects\\Jayco\\SourceCode\\Main\\jayco-samadhan\\SafecoreApi\\SafecoreApi.csproj",
       "packagesPath": "C:\\Users\\god\\.nuget\\packages\\",
-      "outputPath": "D:\\system\\SafecoreApi\\SafecoreApi\\obj\\",
+      "outputPath": "D:\\Projects\\Jayco\\SourceCode\\Main\\jayco-samadhan\\SafecoreApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

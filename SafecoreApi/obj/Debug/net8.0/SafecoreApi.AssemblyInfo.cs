@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SafecoreApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ab7686edcb4195bda27bd51c7a84b5bd07dc25d")]
 [assembly: System.Reflection.AssemblyProductAttribute("SafecoreApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SafecoreApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

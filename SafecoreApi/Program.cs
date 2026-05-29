@@ -10,11 +10,21 @@ namespace SafecoreApi
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // ?? DATABASE
+            // ?? DATABASE: use SQLite for Development, SQL Server otherwise
             builder.Services.AddDbContext<AppDbContext>(options =>
-                options.UseSqlServer(
-                    builder.Configuration.GetConnectionString("DefaultConnection")
-                )
+                {
+                    if (builder.Environment.IsDevelopment())
+                    {
+                        var sqliteConn = builder.Configuration.GetConnectionString("Sqlite") ?? "Data Source=dev.db";
+                        options.UseSqlite(sqliteConn);
+                    }
+                    else
+                    {
+                        options.UseSqlServer(
+                            builder.Configuration.GetConnectionString("DefaultConnection")
+                        );
+                    }
+                }
             );
 
             builder.Services.AddSingleton<EmailService>();
@@ -33,6 +43,20 @@ namespace SafecoreApi
             });
 
             var app = builder.Build();
+
+            // Ensure database exists in Development (SQLite) or apply migrations in non-Development
+            using (var scope = app.Services.CreateScope())
+            {
+                var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+                if (app.Environment.IsDevelopment())
+                {
+                    db.Database.EnsureCreated();
+                }
+                else
+                {
+                    db.Database.Migrate();
+                }
+            }
 
             // ?? swagger
             if (app.Environment.IsDevelopment())

@@ -1,1 +1,11 @@
-{"Version":1,"Hash":"s4aWuG8A9G+1Z0Ufy58gvJzFdg7jFKaxR47oPs4AhVE=","Source":"SafecoreApi","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "jterDcOiXkIEiA9bP185CpEhYbf1GwLAU3MNHNFJvIk=",
+  "Source": "SafecoreApi",
+  "BasePath": "_content/SafecoreApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
